@@ -28,8 +28,7 @@ The project demonstrates the use of the three functions through an ATM system. I
    * function deposit(int money) public{
       assert(money > 0);
       require(money < 500000, "DEPOSIT LIMIT REACHED");
-      currentBalance += money;
-    }
+      currentBalance += money; }
 
 ## Authors
 
